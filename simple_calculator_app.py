@@ -13,6 +13,7 @@ while True:
 
     # Prompts the user to enter their choice of operation
     while True:
+        try:
 
 # Prompts for the user to enter two numbers
 # Perform the user's selected operation and displaying their result
