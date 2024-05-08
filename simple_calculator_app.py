@@ -8,7 +8,8 @@ while True:
     print("1. Addition")
     print("2. Subtraction")
     print("3. Multiplication")
-    
+    print("4. Division")
+    print()
 # Prompts the user to enter their choice of operation
 # Prompts for the user to enter two numbers
 # Perform the user's selected operation and displaying their result
