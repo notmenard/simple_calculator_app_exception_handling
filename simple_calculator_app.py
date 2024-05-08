@@ -7,7 +7,8 @@ while True:
     print("Choose an operation to be executed:")
     print("1. Addition")
     print("2. Subtraction")
-
+    print("3. Multiplication")
+    
 # Prompts the user to enter their choice of operation
 # Prompts for the user to enter two numbers
 # Perform the user's selected operation and displaying their result
