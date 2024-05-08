@@ -1,6 +1,8 @@
 # Displaying the introduction for the simple calculator application
 while True:
-
+    print(" Simple Calculator App ".center(73, "-"))
+    print()
+    
 # Displaying the list of operations on the calculator
 # Prompts the user to enter their choice of operation
 # Prompts for the user to enter two numbers
