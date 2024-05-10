@@ -50,4 +50,7 @@ while True:
                     print(e)
                     print("Invalid input. Please enter a valid number.")
                 break
-# Adding a prompt for the user asking if they want to try again
+
+    # Adding a prompt for the user asking if they want to try again
+    print()
+    try_again = input("Do you want to try again? ('y' for yes / 'n' for no): "
