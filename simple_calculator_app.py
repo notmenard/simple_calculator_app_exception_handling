@@ -60,3 +60,4 @@ while True:
         # Display a thank you message and exit the program
         print("\033[94m" + " Thank you for using the Simple Calculator App! ".center(73, "-") + "\033[0m")
         break
+    
