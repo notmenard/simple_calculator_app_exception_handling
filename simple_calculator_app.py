@@ -32,29 +32,29 @@ while True:
             print("\033[91m" + str(e) + "\033[0m")
             print("\033[91m" + "Invalid input. Please enter a valid number." + "\033[0m")
         else:
-            # Perform the user's selected operation and displaying their result
-            if choice == "1":
-                result = (first_number + second_number)
-                print("\033[95m" + f"Result: {result}" + "\033[0m")
-                print()
-            elif choice == "2":
-                result = (first_number - second_number)
-                print("\033[95m" + f"Result: {result}" + "\033[0m")
-                print()
-            elif choice == "3":
-                result = (first_number * second_number)
-                print("\033[95m" + f"Result: {result}" + "\033[0m")
-                print()
-            elif choice == "4":
-                try:
-                    result = (first_number // second_number)
-                    print("\033[95m" + f"Result: {result}" + "\033[0m")
-                    print()
-                except ZeroDivisionError as e:
-                    print("\033[91m" + str(e) + "\033[0m")
-                    print("\033[91m" + "Invalid input. Please enter a valid number." + "\033[0m")
-                    print()
             break
+    # Perform the user's selected operation and displaying their result
+    if choice == "1":
+        result = (first_number + second_number)
+        print("\033[95m" + f"Result: {result}" + "\033[0m")
+        print()
+    elif choice == "2":
+        result = (first_number - second_number)
+        print("\033[95m" + f"Result: {result}" + "\033[0m")
+        print()
+    elif choice == "3":
+        result = (first_number * second_number)
+        print("\033[95m" + f"Result: {result}" + "\033[0m")
+        print()
+    elif choice == "4":
+        try:
+            result = (first_number // second_number)
+            print("\033[95m" + f"Result: {result}" + "\033[0m")
+            print()
+        except ZeroDivisionError as e:
+            print("\033[91m" + str(e) + "\033[0m")
+            print("\033[91m" + "Invalid input. Please enter a valid number." + "\033[0m")
+            print()
 
     # Adding a prompt for the user asking if they want to try again
     try_again = input("\033[92m" + "Do you want to try again? ('y' for yes / 'n' for no): " + "\033[0m")
@@ -65,4 +65,3 @@ while True:
         break
     else:
         print("\033[91m" + "Invalid choice. Please choose a valid option." + "\033[0m")
-        
