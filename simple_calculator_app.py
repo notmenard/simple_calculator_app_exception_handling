@@ -53,6 +53,10 @@ while True:
 
     # Adding a prompt for the user asking if they want to try again
     print()
-    try_again = input("Do you want to try again? ('y' for yes / 'n' for no): "
+    try_again = input("Do you want to try again? ('y' for yes / 'n' for no): ")
     if try_again.lower() not in ["y", "n"]:
         raise ValueError("Invalid choice. Please choose a valid option.")
+    elif try_again.lower() != 'y':
+        # Display a thank you message and exit the program
+        print(" Thank you for using the Simple Calculator App! ".center(73, "-"))
+        break
