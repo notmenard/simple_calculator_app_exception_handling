@@ -36,4 +36,6 @@ while True:
             if choice == "1":
                 result = (first_number + second_number)
                 print(f"Result: {result}")
+            elif choice == "2":
+                
 # Adding a prompt for the user asking if they want to try again
