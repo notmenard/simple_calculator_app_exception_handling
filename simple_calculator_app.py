@@ -46,4 +46,7 @@ while True:
                 try:
                     result = (first_number // second_number)
                     print(f"Result: {result}")
+                except ZeroDivisionError as e:
+                    print(e)
+                    print("Invalid input. Please enter a valid number.")
 # Adding a prompt for the user asking if they want to try again
