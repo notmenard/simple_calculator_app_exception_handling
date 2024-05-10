@@ -42,4 +42,8 @@ while True:
             elif choice == "3":
                 result = (first_number * second_number)
                 print(f"Result: {result}")
+            elif choice == "4":
+                try:
+                    result = (first_number // second_number)
+                    print(f"Result: {result}")
 # Adding a prompt for the user asking if they want to try again
