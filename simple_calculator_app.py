@@ -16,7 +16,9 @@ while True:
         try:
             choice = input("Enter operation of your choice (1-4): ")
             if choice not in ["1", "2", "3", "4"]:
-
+                raise ValueError("Invalid choice. Please choose a valid option.")
+            break
+            
 # Prompts for the user to enter two numbers
 # Perform the user's selected operation and displaying their result
 # Adding a prompt for the user asking if they want to try again
