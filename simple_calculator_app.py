@@ -29,6 +29,8 @@ while True:
             second_number = int(input("Enter second number: "))
             print()
         except ValueError as e:
+            print(e)
+            print("Invalid input. Please enter a valid number.")
             
 # Perform the user's selected operation and displaying their result
 # Adding a prompt for the user asking if they want to try again
