@@ -28,6 +28,7 @@ while True:
             first_number = int(input("Enter first number: "))
             second_number = int(input("Enter second number: "))
             print()
+        except ValueError as e:
             
 # Perform the user's selected operation and displaying their result
 # Adding a prompt for the user asking if they want to try again
