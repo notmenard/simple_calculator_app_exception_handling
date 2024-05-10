@@ -15,6 +15,7 @@ while True:
     while True:
         try:
             choice = input("Enter operation of your choice (1-4): ")
+            if choice not in ["1", "2", "3", "4"]:
 
 # Prompts for the user to enter two numbers
 # Perform the user's selected operation and displaying their result
