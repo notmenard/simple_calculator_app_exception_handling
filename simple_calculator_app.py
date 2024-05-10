@@ -21,6 +21,9 @@ while True:
         except Exception as e:
             print(e)
             print("An unexpected error occurred. Please try the application again.")
-# Prompts for the user to enter two numbers
+
+    # Prompts for the user to enter two numbers
+    while True:
+        
 # Perform the user's selected operation and displaying their result
 # Adding a prompt for the user asking if they want to try again
