@@ -18,7 +18,9 @@ while True:
             if choice not in ["1", "2", "3", "4"]:
                 raise ValueError("Invalid choice. Please choose a valid option.")
             break
-            
+        except Exception as e:
+            print(e)
+            print("An unexpected error occurred. Please try the application again.")
 # Prompts for the user to enter two numbers
 # Perform the user's selected operation and displaying their result
 # Adding a prompt for the user asking if they want to try again
