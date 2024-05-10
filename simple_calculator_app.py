@@ -32,6 +32,7 @@ while True:
             print(e)
             print("Invalid input. Please enter a valid number.")
         else:
+            # Perform the user's selected operation and displaying their result
+            if choice == "1":
             
-# Perform the user's selected operation and displaying their result
 # Adding a prompt for the user asking if they want to try again
