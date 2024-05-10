@@ -34,5 +34,5 @@ while True:
         else:
             # Perform the user's selected operation and displaying their result
             if choice == "1":
-            
+                result = (first_number + second_number)
 # Adding a prompt for the user asking if they want to try again
