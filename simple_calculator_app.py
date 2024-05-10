@@ -49,4 +49,5 @@ while True:
                 except ZeroDivisionError as e:
                     print(e)
                     print("Invalid input. Please enter a valid number.")
+                break
 # Adding a prompt for the user asking if they want to try again
