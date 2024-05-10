@@ -31,6 +31,7 @@ while True:
         except ValueError as e:
             print(e)
             print("Invalid input. Please enter a valid number.")
+        else:
             
 # Perform the user's selected operation and displaying their result
 # Adding a prompt for the user asking if they want to try again
