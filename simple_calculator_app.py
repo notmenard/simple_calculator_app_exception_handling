@@ -24,6 +24,10 @@ while True:
 
     # Prompts for the user to enter two numbers
     while True:
-        
+        try:
+            first_number = int(input("Enter first number: "))
+            second_number = int(input("Enter second number: "))
+            print()
+            
 # Perform the user's selected operation and displaying their result
 # Adding a prompt for the user asking if they want to try again
